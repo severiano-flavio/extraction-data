@@ -10,7 +10,7 @@ module.exports = (app) => {
     };
 
     const browserConfig = await browser();
-    
+
     try {
       const data = await webScraping(req.query.q, browserConfig);
       res.status(200).send(data);
