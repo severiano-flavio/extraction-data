@@ -1,0 +1,20 @@
+{
+  "name": "extraction-data",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:severiano-flavio/extraction-data.git",
+  "scripts": {
+    "start": "clear && nodemon index.js"
+  },
+  "author": "Flávio <severiano.flavio18@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "dotenv": "^16.0.1",
+    "express": "^4.18.1",
+    "puppeteer": "^14.1.1",
+    "puppeteer-core": "^14.1.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.16"
+  }
+}
