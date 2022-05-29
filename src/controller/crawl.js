@@ -1,7 +1,7 @@
 const webCrawler = require("../service/web-crawler");
 
 module.exports = async (app) => {
-  app.get('/crawl', async ({query}, res, next) => {
+  app.get('/crawl', async ({query}, res) => {
     if (!query.website) {
       const err = new Error("Required query website missing");
       err.status = 400;
@@ -10,7 +10,7 @@ module.exports = async (app) => {
     try {
       const response = await webCrawler(query.website);
       res.status(200).send(response);
-
+      console.log('Extraction finished')
     } catch(err) {
       res.status(500).send(err.message);
     }

@@ -17,6 +17,7 @@ module.exports = (app) => {
     } catch (error) {
       res.status(500).send("Something broke");
     } finally {
+      console.log('Extraction finished')
       browserConfig.close();
     }
   });
