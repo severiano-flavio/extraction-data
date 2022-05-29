@@ -9,3 +9,8 @@ O projeto é apenas uma POC para a realização de extração de dados utilizand
 	- WSL1
 	- Ubuntu 20.04
 	- Node v.16.14.2
+
+  - ### Endpoints
+    - Exemplos:
+      - /scrap?q=termo de busca
+      - /crawl?website=https://github.com/
