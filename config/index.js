@@ -1,6 +1,6 @@
 const express = require('express');
 const crawler = require('../src/controller/crawl');
-const scraping = require('../src/controller/scraping');
+const scraping = require('../src/controller/scrap');
 
 const app = express();
 const port = 3000;
