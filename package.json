@@ -4,7 +4,7 @@
   "main": "index.js",
   "repository": "git@github.com:severiano-flavio/extraction-data.git",
   "scripts": {
-    "start": "clear && nodemon index.js"
+    "start": "node index.js"
   },
   "author": "Flávio <severiano.flavio18@gmail.com>",
   "license": "MIT",
